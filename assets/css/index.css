@@ -4,6 +4,19 @@ html {
   overflow-x: hidden;
 }
 
+.getSize {
+  font-size: 30px;
+  line-height: 44px;
+}
+
+.social {
+  display: none;
+}
+
+.memberImg:hover + .social {
+  display: block;
+}
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -234,8 +247,8 @@ html {
   background-color: #cacccf;
   opacity: 0.7;
   border-radius: 50%;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 10px;
   opacity: 1;
 }
 
@@ -299,7 +312,8 @@ html {
 }
 
 .hero {
-  width: 50% !important;
+  /* width: 50% !important; */
+  width: 500px !important;
   overflow-wrap: break-word;
   position: absolute;
   top: 50%;
@@ -349,13 +363,13 @@ html {
 
 .secondaryFontSize {
   font-weight: 600;
-  font-size: 59px;
+  /* font-size: 59px; */
   letter-spacing: 0.03em;
   font-family: "Archivo", sans-serif;
 }
 
 .heroButtonSize {
-  font-size: 30px;
+  /* font-size: 30px; */
   font-family: "Archivo", sans-serif;
 }
 
@@ -547,11 +561,17 @@ html {
 
 .footerBgColor {
   background-color: #25282b;
-  font-size: 24px;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.01em;
 }
 
 /* @media screen and (max-width: 768px) { */
 @media screen and (max-width: 767px) {
+  .social {
+    display: block;
+  }
+
   #preloader:before {
     content: "";
     position: fixed;
@@ -939,8 +959,8 @@ html {
     background-color: #cacccf;
     opacity: 0.7;
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 10px;
     opacity: 1;
   }
 
@@ -1040,14 +1060,14 @@ html {
 
   .secondaryFontSize {
     font-weight: 600;
-    font-size: 59px;
+    /* font-size: 59px; */
     letter-spacing: 0.03em;
     font-family: "Archivo", sans-serif;
     line-height: 45px;
   }
 
   .heroButtonSize {
-    font-size: 20px;
+    /* font-size: 20px; */
     font-family: "Archivo", sans-serif;
   }
 
@@ -1203,7 +1223,9 @@ html {
 
   .footerBgColor {
     background-color: #25282b;
-    font-size: 24px;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
   }
 }
 
@@ -1252,7 +1274,7 @@ html {
 
   .secondaryFontSize {
     font-weight: 600;
-    font-size: 100px;
+    /* font-size: 100px; */
     letter-spacing: 0.03em;
     font-family: "Archivo", sans-serif;
   }
