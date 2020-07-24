@@ -1262,13 +1262,13 @@ html {
   }
 
   .aboutprimaryfont {
-    font-size: 60px;
+    font-size: 30px;
   }
 
   .aboutFontSize {
-    font-size: 30px;
+    font-size: 50px;
     overflow-wrap: normal;
-    width: 100%;
+    width: 600px;
   }
 
   .aboutMiniFontSize {
